@@ -8,7 +8,7 @@
 
 首先下载相应的压缩包，地址：https://go.dev/dl/。
 
-![image.png](./assets/1683772760154-3534eb1e-9a2e-4dfe-8006-a4269252b1a5.png)
+![image.png](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/go-1.png)
 
 然后使用软件﻿`xftp`﻿将压缩包上传到`Linux`的﻿`/usr/local`﻿上
 
@@ -54,7 +54,7 @@ source /etc/profile
 go version
 ```
 
-![image.png](./assets/1683773041930-a6aa297e-7b4e-4b4f-828d-257d58e06846.png)
+![image.png](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/go-2.png)
 
 ## 在Windows上安装 
 
@@ -64,7 +64,7 @@ go version
 
 地址：https://go.dev/dl/
 
-![image.png](./assets/1683773143693-2de32e80-ddfe-4c7b-8597-9e74d4c2740b.png)
+![image.png](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/go-3.png)
 
 ### 安装 
 
@@ -72,15 +72,27 @@ go version
 
 ### 添加环境变量 
 
+这里需要添加三个环境，`GOROOT`、`GOPATH`、`path`
+
+在系统变量下新建`GOROOT`和`GOPATH`，里面分别放的是GO的安装目录和工作目录，可以看到如下，我是新建了一个`workspace`目录，用来存放GO的工作目录。
+
+![img](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/1684892894692-dbaa7ce0-c56d-4773-af99-a84365734366.png)
+
+这里要注意，在`workspace`下需要新建三个包，如下图：
+
+![img](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/1684892935773-8ff1489a-3b1f-488b-914d-c8abfa4da3f2.png)
+
+下面是添加`path`变量：
+
 将﻿`bin`﻿目录添加到环境变量中
 
-![image.png](./assets/1683773289903-04a120c9-3e75-4aa0-9efb-518581c786f1.png)
+![image.png](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/go-4.png)
 
 ### 测试 
 
 打开﻿cmd﻿，输入﻿go version﻿输出版本号即为成功。
 
-![image.png](./assets/1683773334261-4b91b988-5252-4a3f-a442-5068a8b825a4.png)
+![image.png](https://img-1315662121.cos.ap-guangzhou.myqcloud.com/img/go-5.png)
 
 # ﻿简单使用
 
